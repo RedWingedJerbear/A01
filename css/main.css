@@ -1,32 +1,53 @@
-
-
 /* ==========================================================================
    Jeremiah's custom styles
    ========================================================================== */
-iframe{
-    margin-left: auto;
-    margin-right: auto; 
-}
-.navbar{
-    background-attachment: #006747;
+
+.form-group {
+    margin: 20px;
 }
 
-#profilePic{
-    border-radius: 50%;
+iframe {
+    margin: 10px;
+    padding: 10px;
 }
 
-#adminPic{
-    align-self: center;
-}
-
-.row{
+.navbar {
     background-color: #006747;
+}
+
+.nav-item {
     color: white;
 }
 
-footer{
-    padding-top: 50px;
-    margin-top: 50px;
+.nav-item:hover {
+    color: grey;
+}
+
+.navbar-brand {
+    color: black
+}
+
+.navbar-brand:hover {
+    color: grey;
+}
+
+#adminPic {
+    align-self: center;
+}
+
+.row {
+    background-color: #006747;
+    color: white;
+    border-radius: 15px;
+}
+
+footer {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#schedule-header{
+    padding-left: 10px;
 }
 
 .tictactoe-board {
@@ -37,9 +58,8 @@ footer{
     color: white;
     border: 10px solid white;
     border-radius: 10px;
-
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3,1fr);
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
 .game-square {
@@ -50,16 +70,3 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
