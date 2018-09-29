@@ -3,9 +3,9 @@
 /* ==========================================================================
    Jeremiah's custom styles
    ========================================================================== */
-.navbar{
-    background-color: #006747;
-    color: white;
+iframe{
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 #profilePic{
@@ -26,22 +26,21 @@ footer{
     margin-top: 50px;
 }
 
-.tictactoe-board{
-    width: 800px;
-    height: 800px;
-    margin: o auto;
+.tictactoe-board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
     background-color: #006747;
     color: white;
     border: 10px solid white;
     border-radius: 10px;
 
     display: grid;
-    grid-template: repeat(3, 1fr)/repeat(3,1fr);
+    grid-template: repeat(3, 1fr) / repeat(3,1fr);
 }
 
-.game-square{
-    border: 10px solid white;
-    border-radius: 2px;
+.game-square {
+    border: 8px solid white;
     font-weight: bold;
     font-size: 5em;
     display: flex;
