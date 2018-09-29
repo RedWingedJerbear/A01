@@ -1,11 +1,29 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   Jeremiah's custom styles
    ========================================================================== */
+.navbar{
+    background-color: #006747;
+}
 
+#profilePic{
+    border-radius: 50%;
+}
 
+#adminPic{
+    align-self: center;
+}
 
+.row{
+    background-color: #006747;
+    color: white;
+}
+
+footer{
+    padding-top: 50px;
+    margin-top: 50px;
+}
 
 
 
