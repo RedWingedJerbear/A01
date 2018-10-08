@@ -46,7 +46,7 @@ footer {
     margin-top: 20px;
 }
 
-#schedule-header{
+#schedule-header {
     padding-left: 10px;
 }
 
@@ -69,4 +69,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background-color: black;
 }
